@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F006400821108FE600518041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F006400721108FE600518041 /* main.m */; };
+		F00640102110900000518041 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = F006400F2110900000518041 /* Box.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F006400421108FE600518041 /* SecondDay */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SecondDay; sourceTree = BUILT_PRODUCTS_DIR; };
 		F006400721108FE600518041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F006400E2110900000518041 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		F006400F2110900000518041 /* Box.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		F0063FFB21108FE600518041 = {
 			isa = PBXGroup;
 			children = (
+				F006400E2110900000518041 /* Box.h */,
+				F006400F2110900000518041 /* Box.m */,
 				F006400621108FE600518041 /* SecondDay */,
 				F006400521108FE600518041 /* Products */,
 			);
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F006400821108FE600518041 /* main.m in Sources */,
+				F00640102110900000518041 /* Box.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
